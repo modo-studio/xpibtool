@@ -1,6 +1,10 @@
 xpibtool
 ================
 
+### Why this tool?
+If you are building cross-platform frameworks, you can use macros in code to conditionally select the code you want to include depending on the platform. However, that's not possible with IB files. If you add a iOS Storyboard and you try to compile your framework for macOS, your framework **won't compile**. Thanks to this tool you can solve this issue. It'll copy and link only the `.xib` and `.storyboard` that match the platform you are building for.
+
+
 ### Setup
 1. Install Swift if you didn't have it installed.
 2. Git clone the repository `git clone git@github.com:carambalabs/xpibtool.git`
@@ -13,6 +17,13 @@ xpibtool
 - [Xcode & cross-platform frameworks](http://ilya.puchka.me/xcode-cross-platform-frameworks/)
 - [Output](https://gist.github.com/fabiopelosin/4560417)
 - [xcbuild compiler](https://github.com/facebook/xcbuild/tree/master/Specifications/Compiler)
+
+
+### Thanks
+
+- [Files](https://github.com/JohnSundell/Files) from [John Sundell](https://github.com/JohnSundell)
+- [Commander](https://github.com/kylef/Commander) from [Kyle Fuller](https://github.com/kylef)
+- [SwiftShell](https://github.com/kareman/SwiftShell) from [Kare Morstol](https://github.com/kareman)
 
 ## About
 
