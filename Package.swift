@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "resource",
+    name: "xpibtool",
     dependencies: [
         .Package(url: "https://github.com/kylef/Commander.git", majorVersion: 0, minor: 6),
         .Package(url: "https://github.com/JohnSundell/Files.git", majorVersion: 1, minor: 5),

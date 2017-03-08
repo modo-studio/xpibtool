@@ -1,9 +1,9 @@
-Resource
+xpibtool
 ================
 
 ### Setup
 1. Install Swift if you didn't have it installed.
-2. Git clone the repository `git clone git@github.com:carambalabs/Resource.git`
+2. Git clone the repository `git clone git@github.com:carambalabs/xpibtool.git`
 3. Build it using `swift build`
 4. Voila :tada:
 
