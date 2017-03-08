@@ -11,7 +11,9 @@ Resource
 
 - [ibtool](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/ibtool.1.html)
 - [Xcode & cross-platform frameworks](http://ilya.puchka.me/xcode-cross-platform-frameworks/)
-- 
+- [Output](https://gist.github.com/fabiopelosin/4560417)
+- [xcbuild compiler](https://github.com/facebook/xcbuild/tree/master/Specifications/Compiler)
+
 ## About
 
 <img src="https://github.com/carambalabs/Foundation/blob/master/ASSETS/avatar_rounded.png?raw=true" width="70" />
