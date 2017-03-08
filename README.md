@@ -1,6 +1,8 @@
 xpibtool
 ================
 
+[![Build Status](https://travis-ci.org/carambalabs/xpibtool.svg?branch=master)](https://travis-ci.org/carambalabs/xpibtool)
+
 ### Why this tool?
 If you are building cross-platform frameworks, you can use macros in code to conditionally select the code you want to include depending on the platform. However, that's not possible with IB files. If you add a iOS Storyboard and you try to compile your framework for macOS, your framework **won't compile**. Thanks to this tool you can solve this issue. It'll copy and link only the `.xib` and `.storyboard` that match the platform you are building for.
 
